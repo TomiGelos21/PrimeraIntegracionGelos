@@ -1,0 +1,35 @@
+/*General*/
+html {
+    scrollbar-gutter: stable;
+    background-color: rgb(248, 249, 250);
+}
+
+h1 {
+    padding: 16px;
+}
+
+/*Main*/
+.navbar-brand img {
+    max-width: 3.5ch;
+    border-radius: 4px;
+}
+
+/* Home */
+#products-container {
+    padding-top: 16px;
+    padding-bottom: 16px;
+
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    row-gap: 16px;
+}
+
+/*Admin panel*/
+#form {
+    padding-bottom: 16px;
+}
+
+#createBtn {
+    margin-bottom: 16px;
+}
